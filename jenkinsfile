@@ -1,7 +1,5 @@
 node{
-In this place write pipeline script. Node represents which server we need to run
-}
-node{
+
 def mavenHome = tool name: 'maven 3.8.5'
 //Get Code From Repo
 stage('Get Code From Repo'){
